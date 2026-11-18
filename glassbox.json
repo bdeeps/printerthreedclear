@@ -1,0 +1,110 @@
+{
+  "slug": "printerthreedclear",
+  "box": 227,
+  "date": "2026-11-24",
+  "title": "PrinterThreeDClear",
+  "question": "How does a 3D printer work?",
+  "hook": "A 3D printer cannot draw a shape. It can only draw one thin slice, then another on top. Slice a model, watch plastic melt through a 0.4 mm nozzle, steer a printer three ways, and break a print on purpose.",
+  "thumbText": "HOW 3D PRINTERS WORK",
+  "field": "machines",
+  "minutes": 16,
+  "tags": [
+    "3d printer",
+    "3d printing",
+    "fdm",
+    "filament",
+    "slicer",
+    "stepper motor",
+    "resin printer",
+    "additive manufacturing",
+    "machines",
+    "three.js"
+  ],
+  "explainer": [
+    {
+      "title": "A stack of slices",
+      "text": "A printer cannot print a shape. A program called a slicer cuts the model into flat layers, typically 0.1 to 0.3 mm thick for plastic, and plans the path the nozzle follows in each one. Every layer gets perimeters for the walls, solid skin on the top and bottom, and sparse infill inside. Where a layer would hang in the air, the slicer adds supports to snap away later."
+    },
+    {
+      "title": "Filament in, plastic out",
+      "text": "Most desktop printers melt a plastic string 1.75 mm thick. A stepper-driven gear pushes the filament into a heater block, about 190 to 230 °C for PLA and 230 to 250 °C for PETG. The solid filament is the piston: it pushes the melt through a nozzle with a hole usually 0.4 mm wide. Feed too fast or run too cold and the heater cannot melt plastic quickly enough, so the gear skips."
+    },
+    {
+      "title": "A robot that counts steps",
+      "text": "Stepper motors turn in small exact steps, so the printer can count steps to know where each part is. Belts slide the head and the bed, and lead screws lift the gantry one layer at a time. The bed is heated, around 55 to 60 °C for PLA and 70 to 90 °C for PETG, to keep the first layer stuck and the part from curling."
+    },
+    {
+      "title": "Three ways to move",
+      "text": "A Cartesian printer has one motor per axis. A CoreXY printer keeps the bed still, and two fixed motors drive belts that combine: together they move the head sideways, in opposition forwards. A delta printer hangs the nozzle from three arms on three towers, and the controller solves the geometry for each point."
+    },
+    {
+      "title": "Why prints fail",
+      "text": "Plastic shrinks as it cools, so cold beds let corners curl up. Runny plastic oozes during travel moves and leaves strings, which retraction and a cooler nozzle reduce. An overhang droops when each layer is laid mostly over air: the overlap with the layer below is 1 minus layer height times the tangent of the angle, divided by the bead width. A fan lets steeper angles print."
+    },
+    {
+      "title": "Light, powder and metal",
+      "text": "Resin printers harden liquid photopolymer with light from a laser or a projector, and the part hangs upside down from a plate that lifts a layer at a time. Powder printers fuse a thin layer of nylon with a laser, drop the bed and spread more. The loose powder supports the part. Metal printers melt metal powder under argon and weld the part to a plate with supports."
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Slicer",
+      "def": "Software that cuts a 3D model into layers and writes the movement instructions for the printer."
+    },
+    {
+      "term": "Layer height",
+      "def": "The thickness of one layer. Thinner layers hide the steps but need many more of them."
+    },
+    {
+      "term": "Perimeter",
+      "def": "A loop of plastic following the outline of a layer. Several together make the wall."
+    },
+    {
+      "term": "Infill",
+      "def": "A sparse pattern inside the walls that holds them apart for much less plastic."
+    },
+    {
+      "term": "Support",
+      "def": "Throw-away material printed under an overhang so the layer above has something to sit on."
+    },
+    {
+      "term": "Filament",
+      "def": "The plastic string, usually 1.75 mm thick, that a filament printer melts and lays down."
+    },
+    {
+      "term": "Hotend",
+      "def": "The heated part of the printer: heat break, heater block and nozzle."
+    },
+    {
+      "term": "Stepper motor",
+      "def": "A motor that turns in small fixed steps, so a controller can position it by counting pulses."
+    },
+    {
+      "term": "CoreXY",
+      "def": "A design with two fixed motors and belts that combine to move the head in X and Y."
+    },
+    {
+      "term": "Retraction",
+      "def": "Pulling the filament back a little before a travel move so the nozzle does not ooze."
+    }
+  ],
+  "links": {},
+  "storage": [
+    {
+      "key": "printerthreedclear.v1",
+      "what": "Which chapters you have opened, your best quiz scores, and sound on or off."
+    }
+  ],
+  "credits": [
+    {
+      "name": "three.js",
+      "license": "MIT",
+      "url": "https://threejs.org"
+    },
+    {
+      "name": "Geist, Instrument Serif",
+      "license": "SIL OFL 1.1",
+      "url": "https://openfontlicense.org"
+    }
+  ]
+}

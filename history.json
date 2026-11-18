@@ -1,0 +1,874 @@
+{
+  "title": "The history of the 3D printer",
+  "tagline": "From a Japanese lab in 1980 and a glue-gun frog to printers that print copies of themselves.",
+  "intro": "Layer-by-layer manufacturing was invented in several places at almost the same time. Light and lasers came first. Then a glue gun gave us melted plastic, and a patent kept it inside one company for twenty years. When that patent ran out and an open-source project showed how to build the machine, printers moved from factories to kitchen tables. Some dates and names are argued over, and this history says so where they are.",
+  "eras": [
+    {
+      "id": "light",
+      "name": "Light, lasers and powder",
+      "from": 1979,
+      "to": 2014,
+      "color": "#c49bff",
+      "summary": "Inventors on three continents work out how to build objects layer by layer using light, lasers and powder. Industry buys the first machines."
+    },
+    {
+      "id": "string",
+      "name": "Melted plastic",
+      "from": 1988,
+      "to": 2009,
+      "color": "#ffb547",
+      "summary": "Scott Crump's glue gun becomes fused deposition modelling. A patent keeps the technique inside one company for twenty years."
+    },
+    {
+      "id": "open",
+      "name": "Open source and desktops",
+      "from": 2004,
+      "to": 2013,
+      "color": "#8ef0ff",
+      "summary": "RepRap, Thingiverse and MakerBot make printers something a hobbyist can build, and the patent expiry makes them cheap."
+    },
+    {
+      "id": "metal",
+      "name": "Metal, medicine and more",
+      "from": 1995,
+      "to": 2021,
+      "color": "#a3e635",
+      "summary": "Lasers melt metal powder, and printing reaches aircraft, bridges, batteries and replacement body parts."
+    }
+  ],
+  "events": [
+    {
+      "year": 1979,
+      "date": "3 December 1979",
+      "era": "light",
+      "art": "chip",
+      "title": "A layered molding patent that hints at powder fusing",
+      "who": "Ross F. Housholder",
+      "where": "United States",
+      "country": "United States",
+      "text": "Ross F. Housholder filed a US patent for a molding process that builds an object in layers. Some versions fuse powder with heat or a laser. Wikipedia notes it was never turned into a product.",
+      "why": "Layer-by-layer building, even from powder, was thought of before it worked as a machine.",
+      "sources": [
+        9,
+        1
+      ]
+    },
+    {
+      "year": 1981,
+      "date": "c. 1980–1981",
+      "era": "light",
+      "art": "scroll",
+      "key": true,
+      "title": "Kodama hardens plastic with light, layer by layer",
+      "who": "Hideo Kodama",
+      "where": "Nagoya, Japan",
+      "country": "Japan",
+      "text": "At the Nagoya Municipal Industrial Research Institute, Hideo Kodama built machines that harden liquid plastic with ultraviolet light, one layer at a time. He published the method in November 1981. Wikipedia dates his first invention to April 1980 and says his patent rights were dropped.",
+      "why": "He had the layered idea early, but without a patent or a company it did not spread.",
+      "box": "slice",
+      "sources": [
+        19,
+        0
+      ]
+    },
+    {
+      "year": 1983,
+      "date": "1983",
+      "era": "light",
+      "art": "lens",
+      "title": "Hull sees a way to build with ultraviolet light",
+      "who": "Chuck Hull",
+      "where": "California, United States",
+      "country": "United States",
+      "text": "While working with ultraviolet lamps and resins that harden under UV light, Chuck Hull came up with stereolithography. 3D Systems dates the first 3D printed part to 1983.",
+      "why": "It turned a lab trick, hardening liquid with light, into a way to build objects.",
+      "box": "other",
+      "sources": [
+        15,
+        16
+      ]
+    },
+    {
+      "year": 1984,
+      "date": "2 July 1984",
+      "era": "light",
+      "art": "scroll",
+      "title": "An early US patent on layered manufacturing",
+      "who": "Bill Masters",
+      "where": "United States",
+      "country": "United States",
+      "text": "Bill Masters filed US patent 4,665,492, \"Computer automated manufacturing process and system\", on 2 July 1984. It was granted on 12 May 1987. Wikipedia calls it the first 3D printing patent on record.",
+      "why": "Layered manufacturing was being invented in several places at once.",
+      "sources": [
+        12,
+        0
+      ]
+    },
+    {
+      "year": 1984,
+      "date": "16 July 1984",
+      "era": "light",
+      "art": "lens",
+      "title": "A French team files first, and then lets go",
+      "who": "Alain Le Méhauté, Olivier de Witte and Jean-Claude André",
+      "where": "France",
+      "country": "France",
+      "text": "Three French inventors filed a stereolithography patent three weeks before Hull. Their backers, the French General Electric Company and CILAS, dropped it for lack of business prospects.",
+      "why": "A race lost by a few weeks, and by a company's decision not to pursue it.",
+      "sources": [
+        6
+      ]
+    },
+    {
+      "year": 1984,
+      "date": "8 August 1984",
+      "era": "light",
+      "art": "scroll",
+      "key": true,
+      "title": "Hull files the stereolithography patent",
+      "who": "Chuck Hull",
+      "where": "California, United States",
+      "country": "United States",
+      "text": "Charles Hull filed US patent 4,575,330, \"Apparatus for production of three-dimensional objects by stereolithography\", on 8 August 1984. It was published as a granted patent on 11 March 1986.",
+      "why": "This patent gave a company the right to build a whole industry around one method.",
+      "box": "other",
+      "sources": [
+        10,
+        17
+      ]
+    },
+    {
+      "year": 1986,
+      "date": "1986",
+      "era": "light",
+      "art": "building",
+      "title": "3D Systems is founded",
+      "who": "Chuck Hull",
+      "where": "Valencia, California, United States",
+      "country": "United States",
+      "text": "Hull co-founded 3D Systems in 1986 to sell stereolithography. The company calls itself the first 3D printing company in the world.",
+      "why": "It put layer-by-layer printing on the market.",
+      "sources": [
+        15,
+        16
+      ]
+    },
+    {
+      "year": 1986,
+      "date": "17 October 1986",
+      "era": "light",
+      "art": "chip",
+      "key": true,
+      "title": "Deckard patents laser sintering",
+      "who": "Carl Deckard (with adviser Joe Beaman)",
+      "where": "Austin, Texas, United States",
+      "country": "United States",
+      "text": "Carl Deckard filed US patent 4,863,538 for building parts by selectively sintering powder, at the University of Texas at Austin. It was granted on 5 September 1989. His adviser Joe Beaman worked with him on the process.",
+      "why": "Powder replaced liquid, and the loose powder held the part up, so supports were not needed.",
+      "box": "other",
+      "sources": [
+        11,
+        18
+      ]
+    },
+    {
+      "year": 1987,
+      "date": "1987",
+      "era": "light",
+      "art": "printer",
+      "title": "The first commercial 3D printer: the SLA-1",
+      "who": "3D Systems",
+      "where": "California, United States",
+      "country": "United States",
+      "text": "3D Systems says it commercialised the SLA-1 stereolithography printer in 1987.",
+      "why": "The first time a business could buy a machine that printed in 3D.",
+      "sources": [
+        15
+      ]
+    },
+    {
+      "year": 1988,
+      "date": "1988",
+      "era": "string",
+      "art": "flame",
+      "key": true,
+      "title": "A glue gun and a toy frog",
+      "who": "Scott Crump",
+      "where": "United States",
+      "country": "United States",
+      "text": "In 1988 Scott Crump made a toy frog for his daughter with a glue gun loaded with polyethylene and candle wax. He realised the layer-by-layer method could be automated.",
+      "why": "Melting a plastic and laying it down in lines became fused deposition modelling.",
+      "box": "extruder",
+      "sources": [
+        24,
+        25
+      ]
+    },
+    {
+      "year": 1989,
+      "date": "1988–1989",
+      "era": "string",
+      "art": "building",
+      "key": true,
+      "title": "Stratasys is founded and the FDM patent is filed",
+      "who": "Scott and Lisa Crump",
+      "where": "Eden Prairie, Minnesota, United States",
+      "country": "United States",
+      "text": "Scott and Lisa Crump founded Stratasys. One company history dates the start to 1988 and the incorporation to August 1989. US patent 5,121,329, \"Apparatus and method for creating three-dimensional objects\", was filed on 30 October 1989 and granted on 9 June 1992.",
+      "why": "The patent kept the technique with one company until it expired in 2009.",
+      "box": "machine",
+      "sources": [
+        13,
+        24
+      ]
+    },
+    {
+      "year": 1989,
+      "date": "August 1989",
+      "era": "light",
+      "art": "gear",
+      "title": "A university lab gets a stereolithography machine",
+      "who": "Elaine Hunt",
+      "where": "Clemson, South Carolina, United States",
+      "country": "United States",
+      "text": "An SLA 250 was installed in the rapid prototyping lab at Clemson University in August 1989. Elaine Hunt trained on it that summer and became the lab’s director in 1994.",
+      "why": "Universities taught the first generation of printer users.",
+      "sources": [
+        26
+      ]
+    },
+    {
+      "year": 1990,
+      "date": "mid-1990 (June or July)",
+      "era": "light",
+      "art": "computer",
+      "title": "Materialise starts as a printing service",
+      "who": "Wilfried Vancraen and Hilde Ingelaere",
+      "where": "Leuven, Belgium",
+      "country": "Belgium",
+      "text": "Wilfried Vancraen and his wife Hilde Ingelaere started Materialise in Leuven as a rapid prototyping service. By 1992 it was building 3D models of anatomy from CT scans.",
+      "why": "Printing turned out to be very good at making things that are different for each person.",
+      "sources": [
+        27,
+        7
+      ]
+    },
+    {
+      "year": 1992,
+      "date": "April 1992",
+      "era": "string",
+      "art": "printer",
+      "title": "Stratasys sells its first FDM machine",
+      "who": "Stratasys",
+      "where": "Eden Prairie, Minnesota, United States",
+      "country": "United States",
+      "text": "Stratasys sold its first product, the 3D Modeler, in April 1992. It melted plastic and laid it down in layers.",
+      "why": "It was the first printer of the type that sits on desks today.",
+      "sources": [
+        24
+      ]
+    },
+    {
+      "year": 1994,
+      "date": "October 1994",
+      "era": "string",
+      "art": "trophy",
+      "title": "Stratasys goes public",
+      "who": "Stratasys",
+      "where": "Minnesota, United States",
+      "country": "United States",
+      "text": "Stratasys went public on the Nasdaq stock market in October 1994.",
+      "why": "The new technology had become a business.",
+      "sources": [
+        24
+      ]
+    },
+    {
+      "year": 1996,
+      "date": "c. 1995–1996",
+      "era": "metal",
+      "art": "blade",
+      "key": true,
+      "title": "Aachen's lasers melt metal powder",
+      "who": "Wilhelm Meiners, Konrad Wissenbach and Andres Gasser",
+      "where": "Aachen, Germany",
+      "country": "Germany",
+      "text": "At the Fraunhofer Institute for Laser Technology in Aachen, Meiners, Wissenbach and Gasser filed a patent on 2 December 1996 for melting metal powder with a laser, layer by layer. Wikipedia says the work began in 1995.",
+      "why": "It opened the way to printed metal parts, from tools to aircraft components.",
+      "box": "other",
+      "sources": [
+        14,
+        35
+      ]
+    },
+    {
+      "year": 2001,
+      "date": "2001",
+      "era": "light",
+      "art": "gear",
+      "title": "3D Systems buys the laser sintering maker DTM",
+      "who": "3D Systems and DTM",
+      "where": "United States",
+      "country": "United States",
+      "text": "3D Systems bought DTM on 24 August 2001. DTM held the patents on laser sintering and had been started to build Deckard’s machines.",
+      "why": "The two main early methods ended up under one roof.",
+      "sources": [
+        28,
+        1
+      ]
+    },
+    {
+      "year": 2004,
+      "date": "February 2004",
+      "era": "open",
+      "art": "wrench",
+      "key": true,
+      "title": "Bowyer starts RepRap, a printer that can copy itself",
+      "who": "Adrian Bowyer",
+      "where": "Bath, England",
+      "country": "United Kingdom",
+      "text": "Adrian Bowyer of the University of Bath started the RepRap project to design an open-source 3D printer that can print many of its own parts. The project wiki says it first appeared online in February 2004, although Wikipedia gives 2005. The designs use the GNU General Public License.",
+      "why": "Anyone could build a printer and improve its design.",
+      "box": "machine",
+      "sources": [
+        20,
+        2
+      ]
+    },
+    {
+      "year": 2006,
+      "date": "17 November 2006",
+      "era": "open",
+      "art": "gear",
+      "title": "RepRap makes a part for itself",
+      "who": "RepRap project",
+      "where": "Bath, England",
+      "country": "United Kingdom",
+      "text": "The RepRap wiki records the machine making its first part for itself on 17 November 2006. The part was fitted and worked. Wikipedia dates a first part identical to its own to 13 September 2006, but the project’s own page calls that day the first object made from an STL file.",
+      "why": "A first small step toward a machine that makes itself.",
+      "sources": [
+        21,
+        2
+      ]
+    },
+    {
+      "year": 2006,
+      "date": "c. 2006",
+      "era": "open",
+      "art": "wrench",
+      "title": "Fab@Home gives the idea another home",
+      "who": "Evan Malone and Hod Lipson",
+      "where": "United States",
+      "country": "United States",
+      "text": "Evan Malone and Hod Lipson of Cornell University started Fab@Home, an open-source desktop fabricator. Cornell described the project publicly in February 2007.",
+      "why": "The idea of a desktop fabricator was spreading beyond one lab.",
+      "sources": [
+        0,
+        33
+      ]
+    },
+    {
+      "year": 2008,
+      "date": "October or November 2008",
+      "era": "open",
+      "art": "share",
+      "title": "Thingiverse opens a library of designs to print",
+      "who": "Zach Smith and Bre Pettis",
+      "where": "United States",
+      "country": "United States",
+      "text": "Thingiverse launched in 2008 as a place to share printable designs that others can download, change and print. Sources differ on the month.",
+      "why": "Printers need things to print, and sharing meant nobody had to start from nothing.",
+      "sources": [
+        4
+      ]
+    },
+    {
+      "year": 2008,
+      "date": "29 May 2008",
+      "era": "open",
+      "art": "gear",
+      "key": true,
+      "title": "A printer copies all its own printed parts",
+      "who": "RepRap Darwin; Adrian Bowyer and Vik Olliver",
+      "where": "Bath, England",
+      "country": "United Kingdom",
+      "text": "On 29 May 2008 at Bath, Adrian Bowyer and Vik Olliver showed the first complete working child RepRap, made by its parent. The parent had copied all its printed parts, which Wikipedia puts at about 48 percent of all parts without fasteners.",
+      "why": "The first time a printer made its own offspring.",
+      "box": "machine",
+      "sources": [
+        20,
+        22,
+        2
+      ]
+    },
+    {
+      "year": 2009,
+      "date": "20 January 2009",
+      "era": "open",
+      "art": "wrench",
+      "key": true,
+      "title": "MakerBot is founded",
+      "who": "Bre Pettis, Adam Mayer and Zach Smith",
+      "where": "United States",
+      "country": "United States",
+      "text": "MakerBot was founded in January 2009. Wikipedia gives 20 January and names Bre Pettis, Adam Mayer and Zach Smith as founders, and says its Cupcake CNC kit appeared in April 2009. Stratasys later described MakerBot as founded in 2009.",
+      "why": "It sold printers as kits to hobbyists, and showed there was a market.",
+      "box": "machine",
+      "sources": [
+        23,
+        3
+      ]
+    },
+    {
+      "year": 2009,
+      "date": "2009",
+      "era": "string",
+      "art": "scroll",
+      "key": true,
+      "title": "The FDM patent runs out",
+      "who": "Stratasys",
+      "where": "United States",
+      "country": "United States",
+      "text": "US patent 5,121,329 was due to expire on 30 October 2009, a date Google lists as anticipated. Wikipedia says the expiry helped cut printer prices by about two orders of magnitude.",
+      "why": "Anyone could now build and sell a filament printer.",
+      "box": "extruder",
+      "sources": [
+        13,
+        5
+      ]
+    },
+    {
+      "year": 2012,
+      "date": "September–October 2012",
+      "era": "open",
+      "art": "lens",
+      "title": "A desktop resin printer breaks Kickstarter records",
+      "who": "Maxim Lobovsky, Natan Linder and David Cranor",
+      "where": "Massachusetts, United States",
+      "country": "United States",
+      "text": "Formlabs began in 2011 as a spin-out of the MIT Media Lab. Its Form 1 desktop stereolithography printer raised almost 3 million US dollars on Kickstarter in 2012.",
+      "why": "Resin printing, once a factory technology, came to desks.",
+      "sources": [
+        34,
+        8
+      ]
+    },
+    {
+      "year": 2013,
+      "date": "June 2013",
+      "era": "metal",
+      "art": "battery",
+      "title": "A battery printed with special inks",
+      "who": "Jennifer Lewis",
+      "where": "United States (Illinois and Harvard)",
+      "country": "United States",
+      "text": "Jennifer Lewis and colleagues printed lithium-ion microbatteries about the size of a grain of sand, using inks full of nanoparticles. The work was reported in Advanced Materials in June 2013.",
+      "why": "3D printing could make tiny working electronics, not only solid lumps.",
+      "sources": [
+        29
+      ]
+    },
+    {
+      "year": 2013,
+      "date": "19 June 2013",
+      "era": "open",
+      "art": "trophy",
+      "key": true,
+      "title": "Stratasys buys MakerBot",
+      "who": "Stratasys and MakerBot",
+      "where": "United States",
+      "country": "United States",
+      "text": "Stratasys announced on 19 June 2013 that it would buy MakerBot in a stock deal. The initial value was 403 million US dollars, with up to 201 million more tied to targets.",
+      "why": "The company that owned the FDM patent bought the company that grew once it expired.",
+      "sources": [
+        23,
+        3
+      ]
+    },
+    {
+      "year": 2014,
+      "date": "2014",
+      "era": "light",
+      "art": "trophy",
+      "title": "Hull enters the Inventors Hall of Fame",
+      "who": "Chuck Hull",
+      "where": "United States",
+      "country": "United States",
+      "text": "Chuck Hull was inducted into the US National Inventors Hall of Fame in 2014. He also won the European Inventor Award that year.",
+      "why": "The invention was officially recognised as a landmark.",
+      "sources": [
+        16,
+        17
+      ]
+    },
+    {
+      "year": 2016,
+      "date": "2 April 2016",
+      "era": "metal",
+      "art": "plane",
+      "title": "Printed fuel nozzles reach jet engines",
+      "who": "Airbus and CFM International",
+      "where": "Europe and the United States",
+      "country": "International",
+      "text": "Airbus took delivery of its first production LEAP-1A engines for the A320neo. The engine was the first with 3D-printed fuel nozzles.",
+      "why": "A part that would be hard to make any other way went into airliners.",
+      "sources": [
+        30
+      ]
+    },
+    {
+      "year": 2021,
+      "date": "15 July 2021",
+      "era": "metal",
+      "art": "building",
+      "title": "A 3D-printed steel bridge opens in Amsterdam",
+      "who": "MX3D",
+      "where": "Amsterdam, Netherlands",
+      "country": "Netherlands",
+      "text": "A footbridge printed from steel by the company MX3D was opened in Amsterdam’s red-light district on 15 July 2021.",
+      "why": "Printing reached the scale of a footbridge.",
+      "sources": [
+        31
+      ]
+    },
+    {
+      "year": 2021,
+      "date": "November 2021",
+      "era": "metal",
+      "art": "eye",
+      "title": "A 3D-printed prosthetic eye",
+      "who": "Steve Verze and Moorfields Eye Hospital",
+      "where": "London, England",
+      "country": "United Kingdom",
+      "text": "Steve Verze received a 3D-printed prosthetic eye at Moorfields Eye Hospital in November 2021. The hospital called it a fully digital prosthetic eye.",
+      "why": "Printing can make a part that fits one person exactly.",
+      "sources": [
+        32
+      ]
+    }
+  ],
+  "firsts": [
+    {
+      "label": "First commercial 3D printer, the SLA-1",
+      "value": "1987",
+      "who": "3D Systems, United States"
+    },
+    {
+      "label": "First part a RepRap made for itself",
+      "value": "17 November 2006",
+      "who": "RepRap project, Bath, England"
+    },
+    {
+      "label": "First working child RepRap made by its parent",
+      "value": "29 May 2008",
+      "who": "RepRap Darwin, Bath, England"
+    },
+    {
+      "label": "First FDM machine sold, the 3D Modeler",
+      "value": "April 1992",
+      "who": "Stratasys, United States"
+    }
+  ],
+  "people": [
+    {
+      "name": "Hideo Kodama",
+      "life": "",
+      "role": "Researcher who published an early layered photopolymer method",
+      "from": "Japan",
+      "note": "His work at Nagoya came early, but his patent rights were dropped, according to Wikipedia."
+    },
+    {
+      "name": "Chuck Hull",
+      "life": "born 12 May 1939",
+      "role": "Inventor of stereolithography; founder of 3D Systems",
+      "from": "United States",
+      "note": "Filed the stereolithography patent and was inducted into the National Inventors Hall of Fame in 2014."
+    },
+    {
+      "name": "Scott Crump",
+      "life": "",
+      "role": "Inventor of fused deposition modelling; co-founder of Stratasys",
+      "from": "United States",
+      "note": "The idea came from a glue gun and a toy frog."
+    },
+    {
+      "name": "Lisa Crump",
+      "life": "",
+      "role": "Co-founder of Stratasys",
+      "from": "United States",
+      "note": "Co-founded the company with her husband Scott."
+    },
+    {
+      "name": "Carl Deckard",
+      "life": "20 June 1961 – 23 December 2019",
+      "role": "Inventor of selective laser sintering",
+      "from": "United States",
+      "note": "Patented it at the University of Texas at Austin."
+    },
+    {
+      "name": "Joe Beaman",
+      "life": "",
+      "role": "Engineer and Deckard's adviser",
+      "from": "United States",
+      "note": "Co-developed laser sintering at the University of Texas at Austin."
+    },
+    {
+      "name": "Adrian Bowyer",
+      "life": "born 1952",
+      "role": "Founder of the RepRap project",
+      "from": "England",
+      "note": "Appointed MBE in 2019 for services to 3D printing."
+    },
+    {
+      "name": "Hilde Ingelaere",
+      "life": "",
+      "role": "Co-founder of Materialise",
+      "from": "Belgium",
+      "note": "Handled business and finance in the early years and now leads medical work at the company."
+    },
+    {
+      "name": "Elaine Hunt",
+      "life": "",
+      "role": "Director of a university rapid prototyping lab",
+      "from": "United States",
+      "note": "Began training on an SLA 250 at Clemson in 1989 and led the lab from 1994."
+    },
+    {
+      "name": "Diana Kalisz",
+      "life": "",
+      "role": "Engineer at 3D Systems",
+      "from": "United States",
+      "note": "Ran the SLA 500 large-format programme."
+    },
+    {
+      "name": "Jennifer Lewis",
+      "life": "",
+      "role": "Materials scientist who prints electronics and batteries",
+      "from": "United States",
+      "note": "Led the team that printed lithium-ion microbatteries in 2013."
+    },
+    {
+      "name": "Bre Pettis, Adam Mayer and Zach Smith",
+      "life": "",
+      "role": "Founders of MakerBot",
+      "from": "United States",
+      "note": "Zach Smith and Bre Pettis also started Thingiverse, according to Wikipedia."
+    }
+  ],
+  "series": [
+    {
+      "id": "things",
+      "title": "Designs shared on Thingiverse",
+      "unit": "designs",
+      "log": true,
+      "after": "open",
+      "caption": "The free library of printable designs grew quickly. Figures are as reported on Wikipedia, which cites MakerBot and Thingiverse posts. The first two are approximate or lower bounds.",
+      "points": [
+        {
+          "year": 2012,
+          "value": 25000,
+          "label": "November 2012: about 25,000 designs"
+        },
+        {
+          "year": 2013,
+          "value": 100000,
+          "label": "June 2013: passed 100,000 designs"
+        },
+        {
+          "year": 2014,
+          "value": 400000,
+          "label": "19 July 2014: the 400,000th design published"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    "Scott Crump's first model of fused deposition came from a glue gun loaded with polyethylene and candle wax. He used it to make a toy frog for his daughter.",
+    "The patent on Hull's stereolithography was due to expire in 2004, and the main FDM patent in 2009. Google lists both dates as anticipated.",
+    "Stratasys owns the FDM trademark, so the RepRap community coined the name fused filament fabrication, or FFF, which nobody can own.",
+    "Kodama published a layered photopolymer method in 1981, but his patent rights were dropped. Hull filed three weeks after a French team and went on to found 3D Systems.",
+    "When RepRap Darwin copied its printed parts in 2008, those parts were about 48 percent of the machine. The rest were screws, motors and electronics."
+  ],
+  "sources": [
+    {
+      "title": "3D printing",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/3D_printing"
+    },
+    {
+      "title": "Selective laser sintering",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Selective_laser_sintering"
+    },
+    {
+      "title": "RepRap project",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/RepRap_project"
+    },
+    {
+      "title": "MakerBot",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/MakerBot"
+    },
+    {
+      "title": "Thingiverse",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Thingiverse"
+    },
+    {
+      "title": "Fused filament fabrication",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fused_filament_fabrication"
+    },
+    {
+      "title": "Alain Le Mehaute",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Alain_Le_Mehaute"
+    },
+    {
+      "title": "Materialise NV",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Materialise_NV"
+    },
+    {
+      "title": "Formlabs",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Formlabs"
+    },
+    {
+      "title": "US4247508A: Molding process",
+      "publisher": "Google Patents",
+      "url": "https://patents.google.com/patent/US4247508A/en"
+    },
+    {
+      "title": "US4575330A: Apparatus for production of three-dimensional objects by stereolithography",
+      "publisher": "Google Patents",
+      "url": "https://patents.google.com/patent/US4575330A/en"
+    },
+    {
+      "title": "US4863538A: Method and apparatus for producing parts by selective sintering",
+      "publisher": "Google Patents",
+      "url": "https://patents.google.com/patent/US4863538A/en"
+    },
+    {
+      "title": "US4665492A: Computer automated manufacturing process and system",
+      "publisher": "Google Patents",
+      "url": "https://patents.google.com/patent/US4665492A/en"
+    },
+    {
+      "title": "US5121329A: Apparatus and method for creating three-dimensional objects",
+      "publisher": "Google Patents",
+      "url": "https://patents.google.com/patent/US5121329A/en"
+    },
+    {
+      "title": "DE19649865C1: Shaped body especially prototype or replacement part production",
+      "publisher": "Google Patents",
+      "url": "https://patents.google.com/patent/DE19649865C1/en"
+    },
+    {
+      "title": "Our story",
+      "publisher": "3D Systems",
+      "url": "https://www.3dsystems.com/our-story"
+    },
+    {
+      "title": "Charles Hull",
+      "publisher": "National Inventors Hall of Fame",
+      "url": "https://www.invent.org/inductees/charles-hull"
+    },
+    {
+      "title": "Charles W. Hull",
+      "publisher": "European Patent Office",
+      "url": "https://www.epo.org/en/news-events/european-inventor-award/meet-the-finalists/charles-w-hull"
+    },
+    {
+      "title": "Remembering One of UT’s Great Inventors",
+      "publisher": "University of Texas at Austin, Walker Department of Mechanical Engineering",
+      "url": "https://www.me.utexas.edu/news/1345-remembering-one-of-ut-s-great-inventors"
+    },
+    {
+      "title": "Automatic method for fabricating a three-dimensional plastic model with photo-hardening polymer",
+      "publisher": "Review of Scientific Instruments (AIP Publishing)",
+      "url": "https://doi.org/10.1063/1.1136492"
+    },
+    {
+      "title": "About",
+      "publisher": "RepRap project wiki",
+      "url": "https://reprap.org/wiki/About"
+    },
+    {
+      "title": "ItemsMade",
+      "publisher": "RepRap project wiki",
+      "url": "https://reprap.org/wiki/ItemsMade"
+    },
+    {
+      "title": "Prototype Of Machine That Copies Itself Goes On Show",
+      "publisher": "University of Bath (via ScienceDaily)",
+      "url": "https://www.sciencedaily.com/releases/2008/06/080605211522.htm"
+    },
+    {
+      "title": "Stratasys to Acquire MakerBot, Merging Two Global 3D Printing Industry Leaders",
+      "publisher": "Stratasys (SEC Form 6-K exhibit)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001517396/000110465913050451/a13-15347_1ex99d1.htm"
+    },
+    {
+      "title": "Stratasys, Inc.",
+      "publisher": "International Directory of Company Histories (Reference for Business)",
+      "url": "https://www.referenceforbusiness.com/history2/53/Stratasys-Inc.html"
+    },
+    {
+      "title": "Crump, Scott",
+      "publisher": "Encyclopedia.com",
+      "url": "https://www.encyclopedia.com/journals/culture-magazines/crump-scott"
+    },
+    {
+      "title": "The original women in 3D printing",
+      "publisher": "TCT Magazine",
+      "url": "https://www.tctmagazine.com/the-original-women-in-3d-printing/"
+    },
+    {
+      "title": "Materialise",
+      "publisher": "Henry van de Velde Awards",
+      "url": "https://www.henryvandevelde.be/en/awards/15/materialise"
+    },
+    {
+      "title": "Form 10-K for 2001",
+      "publisher": "3D Systems Corporation (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/910638/000110465902000979/j3109_10k.htm"
+    },
+    {
+      "title": "Printing Tiny Batteries",
+      "publisher": "Wyss Institute at Harvard University",
+      "url": "https://wyss.harvard.edu/printing-tiny-batteries"
+    },
+    {
+      "title": "Airbus Gets 1st Production Jet Engines With 3D-Printed Parts From CFM",
+      "publisher": "GE Aerospace",
+      "url": "https://www.ge.com/news/reports/airbus-gets-1st-production-jet-engines-with-3d-printed-parts-from-cfm"
+    },
+    {
+      "title": "3D printed steel bridge opens in Amsterdam",
+      "publisher": "DutchNews.nl",
+      "url": "https://www.dutchnews.nl/news/2021/07/3d-printed-steel-bridge-opens-in-amsterdam/"
+    },
+    {
+      "title": "Moorfields Eye Hospital patient receives 3D printed prosthetic eye",
+      "publisher": "Association of Optometrists (Optometry Today)",
+      "url": "https://www.aop.org.uk/ot/science-and-vision/technology/2021/11/25/moorfields-eye-hospital-patient-receives-3d-printed-prosthetic-eye"
+    },
+    {
+      "title": "Open-source Replicator? Home-built 3-D Printer Could Launch A Revolution, Engineers Say",
+      "publisher": "Cornell University (via ScienceDaily)",
+      "url": "https://www.sciencedaily.com/releases/2007/02/070226213551.htm"
+    },
+    {
+      "title": "Affordable precision printing for pros",
+      "publisher": "MIT News",
+      "url": "https://news.mit.edu/index.php/2014/affordable-precision-3-d-printing-pros-0603"
+    },
+    {
+      "title": "TCT Hall of Fame 2025: Dr. Wilhelm Meiners honored for lifetime achievement in 3D printing",
+      "publisher": "Fraunhofer Institute for Laser Technology ILT (via idw)",
+      "url": "https://idw-online.de/en/news853451"
+    }
+  ]
+}
